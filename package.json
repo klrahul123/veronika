@@ -2,7 +2,12 @@
   "name": "my-app",
   "version": "0.1.0",
   "type": "module",
-  
+  "engines": {
+    "node": "14.x",
+    "npm": "8.x"
+  },
+
+
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
