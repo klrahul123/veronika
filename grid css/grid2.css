@@ -1,0 +1,27 @@
+.cont{
+    background-color: red;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px;
+    grid-template-rows: 70px 1fr 70px ;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+ }
+ .g{
+    background-color: aqua;
+    
+ }
+ .g1{
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     grid-column-start: 1;
+     grid-column-end: 4;
+ }
+ .g2{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }

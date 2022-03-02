@@ -5,6 +5,8 @@ import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import javasyntax from './javasyntax.png';
+import { Button } from 'react-bootstrap';
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -56,8 +58,9 @@ export default function CustomizedAccordions() {
           <Typography>Java Introduction</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography class="hum">
           Java is a popular programming language, created in 1995.
+           
 
           It is owned by Oracle, and more than 3 billion devices run Java. <br/>
 
@@ -71,7 +74,7 @@ Games
 Database connection<br/>
 And much, much more! </b> <br/><br/>
   
-<h4> Why Use Java? </h4>
+<h4 class="hum"> Why Use Java? </h4>
 Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.) <br/>
 It is one of the most popular programming language in the world <br/>
 It is easy to learn and simple to use<br/>
@@ -89,11 +92,9 @@ Java is an object oriented language which gives a clear structure to programs an
           <Typography>Java Syntax</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography class="hum">
           We created a Java file called Main.java, and we used the following code to print "Hello World" to the screen: <br/>
-          <code>
-          System.out.println("Hello World");
-          </code>
+         <img class="e" src={javasyntax} alt="" />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -564,7 +565,10 @@ Java is an object oriented language which gives a clear structure to programs an
             sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
+       
       </Accordion>
+      <a href="/java"> <Button variant="warning">Back To TOP</Button> </a>
     </div>
+    
   );
 }

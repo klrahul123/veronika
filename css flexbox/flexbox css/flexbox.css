@@ -1,0 +1,23 @@
+.t{
+   display: flex;
+   border: 2px solid grey;
+   height: 300px;
+   /*flex-direction: column-reverse , column, row , row-reverse; (hm apne div items ko row me ya
+   column me arrang krna chahte hai to wo easily kr sakte hai )
+   justify-content: center , flex-end, flex-start; (div-items sare center me aa jayenge parent div ke)
+   align-items: center; (it is similar to justify content)*/ 
+   flex-wrap: wrap;  /* to make your layout responsive  (:wrap-reverse;)*/
+}
+
+.r{
+    background-color: red;
+    margin: 10px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    flex-grow: 3;  /* flex grow div ki width ko bdha dega ye kam se kam use krna chahiye
+    and upar width jo likha hai uska hi use jyadatar krna chahiye*/ 
+    flex-shrink: 2;
+    /*flex-wrap: wrap-reverse; */
+    /*align-self:center (ye ek targeted div item ko center me la dega)*/
+}
