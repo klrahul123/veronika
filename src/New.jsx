@@ -1,14 +1,8 @@
 import * as React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import FadeMenu from './FadeMenu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './toy.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import Python from './Python';
 import Home from './Home';
 import { ButtonGroup } from 'react-bootstrap';
@@ -21,17 +15,45 @@ import Loginx from './Loginx';
 import Signup from './Signup';
 import Help from './Help';
 import { BsChevronDoubleRight } from "react-icons/bs";
-
+import {Container ,Offcanvas,Nav, Navbar } from 'react-bootstrap';
+import LoginIcon from '@mui/icons-material/Login';
+import HelpIcon from '@mui/icons-material/Help';
+import CodeIcon from '@mui/icons-material/Code';
+import AppRegistrationRoundedIcon from '@mui/icons-material/AppRegistrationRounded';
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function New(){
     return(
         <div>
-       <nav className="navbar navbar-light bg-light">
-      <div class="container-fluid">
-      <h3 class="me"> <BsChevronDoubleRight/> CODING HUB </h3>
-      <FadeMenu/>
-       </div>
-     </nav>
+       <Navbar bg="light" expand={false}>
+  <Container fluid>
+     <h2 class="mami"> <BsChevronDoubleRight/>CODING HUB </h2>
+    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+    <Navbar.Offcanvas
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+      placement="end">
+    <Offcanvas.Header closeButton>
+        <Offcanvas.Title id="offcanvasNavbarLabel"> <h3 class="mami">Menu</h3></Offcanvas.Title>
+      </Offcanvas.Header>
+      <hr /> <hr />
+      <Offcanvas.Body>
+        <Nav className="justify-content-end flex-grow-1 pe-3"> 
+          <Nav.Link href="/"><h6 class="mamir"><HomeIcon/> Home</h6></Nav.Link>
+          <Nav.Link href="/java"><h6 class="mamir"><CodeIcon/> Java</h6></Nav.Link>
+          <Nav.Link href="/c"><h6 class="mamir"><CodeIcon/> C</h6></Nav.Link>
+          <Nav.Link href="/c++"><h6 class="mamir"><CodeIcon/> C++</h6></Nav.Link>
+          <Nav.Link href="/python"><h6 class="mamir"><CodeIcon/> Pyhton</h6></Nav.Link>
+          <Nav.Link href="/login"><h6 class="mamir"><LoginIcon/> Login</h6></Nav.Link>
+          <Nav.Link href="/signup"> <h6 class="mamir"><AppRegistrationRoundedIcon/> Sign-Up</h6></Nav.Link>
+          <Nav.Link href="/help"> <h6 class="mamir"><HelpIcon/> Help</h6></Nav.Link>
+
+        </Nav>
+      </Offcanvas.Body>
+    </Navbar.Offcanvas>
+  </Container>
+</Navbar>
+
       <Router>
       <div> 
         <div class="spe">

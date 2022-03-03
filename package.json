@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "type": "module",
-  "homepage": "http://klrahul123.github.io/jalim",
+  "homepage": "http://klrahul123.github.io/codewithrahul",
   "engines": {
     "node": "14.x",
     "npm": "8.x"

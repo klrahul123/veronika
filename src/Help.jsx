@@ -26,12 +26,15 @@ export default function Help() {
       <hr />
     <div className="ba">
      <h2 >Contact Us</h2>
-  </div> <hr /> <br />
-  <div className="bai">
-          <h4 className="fv"> E-mail: </h4><h4> rahul.gupt1235@gmail.com </h4> <br />
+  </div> <hr />
+   <br />
+
+   <div className="ba">
+   <h4 className="fv"> E-mail: </h4><h4> rahul.gupt1235@gmail.com </h4> <br />
   </div>
-  <div className="bai">
-       <h4 className="fv">Whatsapp No: </h4>  <h4> 9569711966 </h4>
+   <br />
+  <div className="ba">
+  <h4 className="fv">Whatsapp No: </h4>  <h4> 9569711966 </h4>
   </div>
 
     </Col>

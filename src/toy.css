@@ -165,11 +165,16 @@
 }
     
 .modi{
-    
     border: 0px solid black;
     display: flex;
     justify-content: center;
-    
+}
+.modiz{
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    background-image: url("C:\Users\hp\Desktop\React Project\my-app\src\headpic.png");
+    background-size: cover;
 }
 .modii{
     border: 0px solid blue;
@@ -241,7 +246,7 @@
     border: 0px solid blue;
     display: flex;
     justify-content: center;
-    background-image: url("C:\Users\hp\Desktop\React Project\my-app\src\pagalman.jpg");
+    background-image: url("C:\Users\hp\Desktop\React Project\my-app\src\blue.jpg");
     background-size: cover;
 }
 .modin{
@@ -260,6 +265,14 @@
 }
 .bad{
     border: 2px solid red;
+}
+.mami{
+    color: rgb(61, 156, 61); ;
+    font-family: 'Noto Sans', sans-serif;
+}
+.mamir{
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 

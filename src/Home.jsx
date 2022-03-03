@@ -2,25 +2,31 @@ import * as React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './toy.css';
-import { Button , Card , Row , Col, Container } from 'react-bootstrap';
+import { Button , Card , Row , Col, Container ,Offcanvas,Nav, NavDropdown,Form, Navbar, FormControl } from 'react-bootstrap';
 import beautifulblackscreencode from './beautifulblackscreencode.jpg';
 import { FcUp } from "react-icons/fc";
 import DoughnutChartDemo from  './DoughnutChartDemo';
+import { BsChevronDoubleRight } from "react-icons/bs";
 
 
 export default function Home() {
     return (
       <>
-    <div class="kale">
-    <div class="t">
+    <Container className='rtp'>
+  <Row className='rubi'>
+    <Col sm={6} className="modii">
         <div class="r"><h2 class="hum">Welcome to <h2 class="rrr">CODING HUB</h2></h2>
         <p class="hum" > Confused on which course to take? I have got you covered. Browse courses and find out the best course for you.Its free! Programming HUB is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
         <a href="/c" class="her"> <Button > Free Courses </Button> </a>
         <a href="/other" class="her"> <Button variant="dark"> More Info</Button> </a>
         </div>
-        <div class="r"> </div>
-    </div>
-</div>
+    </Col>
+    <Col sm={6} className="modiz">
+          
+    </Col>
+  </Row>
+</Container>
+
     <hr />
   <div className="n">
      <h2>Recommended Courses</h2>
@@ -62,17 +68,12 @@ export default function Home() {
      <h2>Popularity of Languages</h2>
   </div>
   <hr />
-  
-
+    <br /> <br /> <br />
 <Container className='rtp'>
   <Row className='v'>
     <Col sm={12} className="modii">
     <DoughnutChartDemo/>  
     </Col>
-      <br />
-    <Col sm={12} className="modi">
-        <h4>Note: Data is in Percentage!</h4>
-    </Col> 
   </Row>
 </Container>
 <br /> <br />
@@ -96,7 +97,7 @@ export default function Home() {
   </Card.Body>
 </Card>  
     </Col>
-
+      <br />
     <Col sm={6} className="modi">
     <Card className='rubi' style={{ width: '18rem' }}>
   <Card.Img variant="top" src={beautifulblackscreencode} />
