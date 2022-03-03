@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/veronika/static/css/main.502f8d92.chunk.css",
+    "main.js": "/veronika/static/js/main.e9235507.chunk.js",
+    "main.js.map": "/veronika/static/js/main.e9235507.chunk.js.map",
+    "runtime-main.js": "/veronika/static/js/runtime-main.6aea80e7.js",
+    "runtime-main.js.map": "/veronika/static/js/runtime-main.6aea80e7.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/veronika/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7605a8eb.chunk.js": "/veronika/static/js/2.7605a8eb.chunk.js",
+    "static/js/2.7605a8eb.chunk.js.map": "/veronika/static/js/2.7605a8eb.chunk.js.map",
+    "static/js/3.dcda55df.chunk.js": "/veronika/static/js/3.dcda55df.chunk.js",
+    "static/js/3.dcda55df.chunk.js.map": "/veronika/static/js/3.dcda55df.chunk.js.map",
+    "index.html": "/veronika/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/veronika/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.502f8d92.chunk.css.map": "/veronika/static/css/main.502f8d92.chunk.css.map",
+    "static/js/2.7605a8eb.chunk.js.LICENSE.txt": "/veronika/static/js/2.7605a8eb.chunk.js.LICENSE.txt",
+    "static/js/3.dcda55df.chunk.js.LICENSE.txt": "/veronika/static/js/3.dcda55df.chunk.js.LICENSE.txt",
+    "static/media/beautifulblackscreencode.f46e5235.jpg": "/veronika/static/media/beautifulblackscreencode.f46e5235.jpg",
+    "static/media/toy.css": "/veronika/static/media/blue.8856f8ef.jpg",
+    "static/media/logo.6ce24c58.svg": "/veronika/static/media/logo.6ce24c58.svg",
+    "static/media/scanf.eb6e2187.png": "/veronika/static/media/scanf.eb6e2187.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6aea80e7.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.7605a8eb.chunk.js",
+    "static/css/main.502f8d92.chunk.css",
+    "static/js/main.e9235507.chunk.js"
+  ]
+}
